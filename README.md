@@ -10,3 +10,10 @@ Register here to get CMC API key - https://coinmarketcap.com/api/pricing/
 2)Adjust the parameters dictionary to specify the cryptocurrency you want to retrieve. You can change the slug to the desired cryptocurrency and the convert to the currency in which you want the price (e.g., 'USD', 'EUR', etc.).
 
 3)The script will send an API request to CoinMarketCap, retrieve the latest price for the specified cryptocurrency, and print the result to the console.
+
+## Docker
+
+1)Build image - docker build -t bitcoin-price .
+2)Create and run container  - docker run bitcoin-price
+
+
